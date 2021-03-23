@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ln -s pom/pom.sh /usr/local/bin/pom-gen
-chmod +x /usr/local/bin/pom-gen
+cp pom/pom.sh /usr/local/bin/spipo
+chmod +x /usr/local/bin/spipo
 
 cd recaf && ./mvnw package
 
