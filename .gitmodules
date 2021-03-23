@@ -1,0 +1,3 @@
+[submodule "recaf"]
+	path = recaf
+	url = https://github.com/Col-E/Recaf
