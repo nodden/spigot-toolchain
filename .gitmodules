@@ -1,3 +1,6 @@
 [submodule "recaf"]
 	path = recaf
 	url = https://github.com/Col-E/Recaf
+[submodule "yarn"]
+	path = yarn
+	url = https://github.com/fabricmc/yarn
