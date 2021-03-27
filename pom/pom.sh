@@ -145,4 +145,8 @@ echo
 printf "${gre}done!${res}\n\n"
 echo "$line"
 
+# initialize git
 git init
+git add .
+# maven wrapper
+mvn -N io.takari:maven:wrapper
