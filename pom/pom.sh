@@ -45,6 +45,8 @@ mkdir -p src/main/java/"${groupId//[.]//}/${proj}"
 mkdir src/main/resources
 mkdir -p src/test/java/
 
+sh -c plugin_yaml.sh "$proj" "$class_path" "$dev_name"
+
 touch pom.xml
 echo '<?xml version="1.0" encoding="UTF-8"?>' >> pom.xml
 echo '<project xmlns="http://maven.apache.org/POM/4.0.0"' >> pom.xml
