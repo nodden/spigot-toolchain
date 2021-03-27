@@ -51,7 +51,7 @@ echo '<project xmlns="http://maven.apache.org/POM/4.0.0"' >> pom.xml
 echo '         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"' >> pom.xml
 echo '         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">' >> pom.xml
 echo '    <modelVersion>4.0.0</modelVersion>' >> pom.xml
-echo "    <groupId>${group_id}</groupId>" >> pom.xml
+echo "    <groupId>${groupId}</groupId>" >> pom.xml
 echo "    <artifactId>${proj}</artifactId>" >> pom.xml
 echo '    <version>1.0</version>' >> pom.xml
 echo >> pom.xml
